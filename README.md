@@ -1,4 +1,4 @@
-goldfish/	: directory containing all the modified kernel code.  
+* goldfish/	: directory containing all the modified kernel code.  
 	arch/arm/  
 		mm/fault.c  
 		configs/goldfish_armv7_defconfig  
@@ -12,7 +12,7 @@ goldfish/	: directory containing all the modified kernel code.
 		sched.h  
 		Makefile  
   
-system_call/	: directory containing the implementation of system call 361, 362, 363.  
+* system_call/	: directory containing the implementation of system call 361, 362, 363.  
 	start_trace/  
 		start_trace.c : the implementation of system call start_trace.  
 		Makefile : make configurations of "start_trace.c".  
@@ -23,7 +23,7 @@ system_call/	: directory containing the implementation of system call 361, 362, 
 		get_trace.c : the implementation of system call get_trace.  
 		Makefile  
   
-test/	: directory containing the test processes.  
+* test/	: directory containing the test processes.  
 	mem_test/  
 		jni/  
 			mem_test.c : source code for testing the page access tracing mechanism.  
@@ -43,5 +43,5 @@ test/	: directory containing the test processes.
 		exec_time.c : source code for compare the runtime(performance) of different schedulers.  
 		Android.mk  
   
-OS_Project2_Report.pdf : report of this project.  
+* OS_Project2_Report.pdf : report of this project.  
 
