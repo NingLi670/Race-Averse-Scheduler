@@ -1,4 +1,4 @@
-goldfish/	: directory containing all the modified kernel code.
+goldfish/	: directory containing all the modified kernel code.  
 	arch/arm/
 		mm/fault.c
 		configs/goldfish_armv7_defconfig
